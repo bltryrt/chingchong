@@ -3,6 +3,12 @@ local Window = Library.CreateLib("PSX-Trade Scam", "BloodTheme")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
+    local MainSection2 = Main:NewSection("Credit")
+    
+    
+    MainSection2:NewButton("Made By お父ちゃんBlinx#0252", "hehe", function()
+    
+    end)
 
 
     MainSection:NewButton("Trade Scam ON/OF", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
