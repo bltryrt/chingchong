@@ -1,0 +1,2 @@
+_G.Key = "username"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/NewPsxScript/main/PsxLoader"))()
