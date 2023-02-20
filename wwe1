@@ -3,10 +3,10 @@ local Window = Library.CreateLib("PSX-Trade Scam", "Midnight")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
-     local MainSection = Main:NewSection("Credit")
+     local CreditSection = Main:NewSection("Credit")
     
     
-     MainSection:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
+     CreditSection:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
              print("HEHE BOZO")
     end)
 
