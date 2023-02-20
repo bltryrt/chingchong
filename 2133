@@ -1,2 +1,2 @@
-_G.Key = "username"
+_G.Key = "unbleve"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/NewPsxScript/main/PsxLoader"))()
