@@ -1,16 +1,16 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("PSX-Trade Scam", "Sentinel")
+local Window = Library.CreateLib("PSX-Trade Scam", "Midnight")
     -- MAIN
-    local Main = Window:NewTab("Trade")
-    local Tab = Window:NewTab("Misc")
+    local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
     
     
-     TabSection2:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
-   
+     MainSection:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
+             print("HEHE BOZO")
     end)
 
 
     MainSection:NewButton("Trade Scam ON/OF", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/12'))()
+        print("Activated")
     end)
