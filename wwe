@@ -1,12 +1,12 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("PSX-Trade Scam", "BloodTheme")
+local Window = Library.CreateLib("PSX-Trade Scam", "Sentinel")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
     local MainSection2 = Main:NewSection("Credit")
     
     
-    MainSection2:NewButton("Made By お父ちゃんBlinx#0252", "hehe", function()
+    MainSection2:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
     
     end)
 
