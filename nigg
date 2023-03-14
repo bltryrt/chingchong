@@ -1,0 +1,3 @@
+local A_1 = "\79\102\102"
+	local Event = game:GetService("ReplicatedStorage").Packages["_Index"]["sleitnick_knit@1.4.7"].knit.Services.ModeTransformService.RE.Transformation
+	Event:FireServer(A_1)
