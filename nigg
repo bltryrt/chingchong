@@ -1,7 +1,7 @@
-repeat 
-     wait(1)
-until false
-
 local A_1 = "\71\114\101\97\116\80\114\105\109\97\116\101"
 local Event = game:GetService("ReplicatedStorage").Packages["_Index"]["sleitnick_knit@1.4.7"].knit.Services.ModeTransformService.RE.Transformation
 Event:FireServer(A_1)
+
+repeat 
+     wait(1)
+until false
