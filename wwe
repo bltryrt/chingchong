@@ -1,21 +1,19 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("PSX-Trade Scam", "Midnight")
+local Window = Library.CreateLib("Blinx's Project Slayer", "Midnight")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
      local CreditSection = Main:NewSection("Credit")
     
     
-     CreditSection:NewButton("Made By Otochan_Blinx#0252", "Dm For Info fuck", function()
+     CreditSection:NewButton("Made By Blinx#0252", "YOUR RETARDED IF YOU THINK ILL GIVE YOU IT LMAO", function()
              print("HEHE BOZO")
     end)
 
 
-    MainSection:NewButton("Trade Scam ON/OFF", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/123'))()
+    MainSection:NewButton("Turn Auto Farm On", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
         print("Activated")
     end)
-MainSection:NewButton("Dupe Pets", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/bltryrt/chingchong/main/213'))()
-        print("Activated")
+MainSection:NewButton("Auto Chest OP", "THIS BUTTON TURNS OFF AND ON THE SCRIPT", function()
+        print("DUMASS THOUGHT")
     end)
